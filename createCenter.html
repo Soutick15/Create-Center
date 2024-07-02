@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Center</title>
+    <link rel="stylesheet" href="./createCenter.css">
+</head>
+<body>
+       
+        <form id="FormContainer">
+            <h1>Create Center</h1>
+            <div class="ColumnWise">
+                <div class="column">
+                    <label for="centerNumber">Center Number</label>
+                    <input type="text" id="centerNumber" name="centerNumber" required>
+    
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" required>
+    
+                    <label for="cityRegion">City Region</label>
+                    <select id="cityRegion" name="cityRegion" required>
+                        <option value="India">India</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Bhutan">Bhutan</option>
+
+                    </select>
+    
+                    <label for="ownership">Ownership</label>
+                    <select id="ownership" name="ownership" required>
+                        <option value="">Select Ownership</option>
+                        <option value="Sole Proprietorship">Sole Proprietorship</option>
+                        <option value="Partnership">Partnership</option>
+                        <option value="Private Limited Company">Private Limited Company</option>
+                        <option value="Public Limited Company">Public Limited Company</option>
+                        <option value="Limited Liability Partnership (LLP)">Limited Liability Partnership (LLP)</option>
+                        <option value="Co-operative Society">Co-operative Society</option>
+                        <option value="Non-Governmental Organization (NGO)">Non-Governmental Organization (NGO)</option>
+                        <option value="Trust">Trust</option>
+                        <option value="Government-Owned">Government-Owned</option>
+                        <option value="Franchise">Franchise</option>
+
+                    </select>
+    
+                    <label for="accreditation">Accreditation</label>
+                    <select id="accreditation" name="accreditation" required>
+                        <option value="">Select Accreditation Body</option>
+                        <option value="">NAAC</option>
+                        <option value="">JCI</option>
+                        <option value="">NAAC</option>
+                        <option value="">ISO</option>
+                        <option value="">NABL</option>
+
+                    </select>
+    
+                    <label for="numberPhysicians">Number of Physicians</label>
+                    <select id="numberPhysicians" name="numberPhysicians" required>
+                        <option value="">Select Number of Physicians</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+
+                    </select>
+                </div>
+    
+                <div class="column">
+                    <label for="centerName">Center Name</label>
+                    <input type="text" id="centerName" name="centerName" required>
+    
+                    <label for="address1">Address 1</label>
+                    <input type="text" id="address1" name="address1" required>
+    
+                    <label for="state">State</label>
+                    <select id="state" name="state" required>
+                        <option value="">Select State</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+                        
+
+                    </select>
+    
+                    <label for="timezone">Timezone</label>
+                    <select id="timezone" name="timezone" required>
+                        <option value="">Select Timezone</option>
+                        <option value="UTC-12:00">UTC-12:00 Baker Island Time</option>
+                        <option value="UTC-11:00">UTC-11:00 Niue Time, Samoa Standard Time</option>
+                        <option value="UTC-10:00">UTC-10:00 Hawaii-Aleutian Standard Time, Cook Island Time</option>
+                        <option value="UTC-09:30">UTC-09:30 Marquesas Islands Time</option>
+                        <option value="UTC-09:00">UTC-09:00 Alaska Standard Time, Gambier Island Time</option>
+                        <option value="UTC-08:00">UTC-08:00 Pacific Standard Time</option>
+                        <option value="UTC-07:00">UTC-07:00 Mountain Standard Time</option>
+                        <option value="UTC-06:00">UTC-06:00 Central Standard Time</option>
+                        <option value="UTC-05:00">UTC-05:00 Eastern Standard Time</option>
+                        <option value="UTC-04:00">UTC-04:00 Atlantic Standard Time</option>
+                        <option value="UTC-03:30">UTC-03:30 Newfoundland Standard Time</option>
+                        <option value="UTC-03:00">UTC-03:00 Argentina, Brazil, French Guiana Time</option>
+                        <option value="UTC-02:00">UTC-02:00 South Georgia/South Sandwich Islands Time</option>
+                        <option value="UTC-01:00">UTC-01:00 Azores Standard Time, Cape Verde Time</option>
+                        <option value="UTC+00:00">UTC+00:00 Greenwich Mean Time</option>
+                        <option value="UTC+01:00">UTC+01:00 Central European Time</option>
+                        <option value="UTC+02:00">UTC+02:00 Eastern European Time</option>
+                        <option value="UTC+03:00">UTC+03:00 Moscow Standard Time</option>
+                        <option value="UTC+03:30">UTC+03:30 Iran Standard Time</option>
+                        <option value="UTC+04:00">UTC+04:00 Gulf Standard Time</option>
+                        <option value="UTC+04:30">UTC+04:30 Afghanistan Time</option>
+                        <option value="UTC+05:00">UTC+05:00 Pakistan Standard Time</option>
+                        <option value="UTC+05:30">UTC+05:30 Indian Standard Time</option>
+                        <option value="UTC+05:45">UTC+05:45 Nepal Time</option>
+                        <option value="UTC+06:00">UTC+06:00 Bangladesh Standard Time</option>
+                        <option value="UTC+06:30">UTC+06:30 Cocos Islands Time, Myanmar Time</option>
+                        <option value="UTC+07:00">UTC+07:00 Indochina Time</option>
+                        <option value="UTC+08:00">UTC+08:00 China Standard Time, Australian Western Standard Time</option>
+                        <option value="UTC+09:00">UTC+09:00 Japan Standard Time, Korea Standard Time</option>
+                        <option value="UTC+09:30">UTC+09:30 Australian Central Standard Time</option>
+                        <option value="UTC+10:00">UTC+10:00 Australian Eastern Standard Time</option>
+                        <option value="UTC+10:30">UTC+10:30 Lord Howe Standard Time</option>
+                        <option value="UTC+11:00">UTC+11:00 Solomon Islands Time, Vanuatu Time</option>
+                        <option value="UTC+12:00">UTC+12:00 Fiji Time, Gilbert Islands Time</option>
+                        <option value="UTC+12:45">UTC+12:45 Chatham Islands Time</option>
+                        <option value="UTC+13:00">UTC+13:00 Phoenix Islands Time, Tonga Time</option>
+                        <option value="UTC+14:00">UTC+14:00 Line Islands Time</option>
+
+                    </select>
+    
+                    <label for="management">Management</label>
+                    <select id="management" name="management" required>
+                        <option value="">Select Management</option>
+                        <option value="Operations Management">Operations Management</option>
+                        <option value="Project Management">Project Management</option>
+                        <option value="Product Management">Product Management</option>
+                        <option value="Marketing Management">Marketing Management</option>
+                        <option value="Financial Management">Financial Management</option>
+                        <option value="Human Resource Management">Human Resource Management</option>
+                        <option value="Supply Chain Management">Supply Chain Management</option>
+                        <option value="IT Management">IT Management</option>
+                        <option value="Strategic Management">Strategic Management</option>
+                        <option value="Risk Management">Risk Management</option>
+                        <option value="Quality Management">Quality Management</option>
+                        <option value="Sales Management">Sales Management</option>
+                        <option value="Customer Relationship Management">Customer Relationship Management</option>
+                        <option value="Change Management">Change Management</option>
+                        <option value="Innovation Management">Innovation Management</option>
+                        <!-- Add options here -->
+                        <!-- Add options here -->
+                    </select>
+    
+                    <label for="ascSize">ASC Size (sq ft)</label>
+                    <select id="ascSize" name="ascSize" required>
+                        <option value="">Select ASC Size</option>
+                        <option value="extra-small">Extra Small</option>
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+        <option value="extra-large">Extra Large</option>
+        <option value="2XL">2XL</option>
+        <option value="3XL">3XL</option>
+        <option value="4XL">4XL</option>
+        <option value="5XL">5XL</option>
+
+                    </select>
+    
+                    <label for="timeOutPeriod">Time Out Period (mins)</label>
+                    <select id="timeOutPeriod" name="timeOutPeriod" required>
+                        <option value="">Select Time Out Period</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <!-- Add options here -->
+                    </select>
+                </div>
+    
+                <div class="column">
+                    <label for="nickName">Nick Name</label>
+                    <input type="text" id="nickName" name="nickName">
+    
+                    <label for="address2">Address 2</label>
+                    <input type="text" id="address2" name="address2">
+    
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip" name="zip" required>
+    
+                    <label for="centerSpecialty">Center Specialty</label>
+                    <select id="centerSpecialty" name="centerSpecialty" required>
+                        <option value="">Select Center Specialty</option>
+                        <option value="Cardiology">Cardiology</option>
+                        <option value="Dermatology">Dermatology</option>
+                        <option value="Gastroenterology">Gastroenterology</option>
+                        <option value="Neurology">Neurology</option>
+                        <option value="Oncology">Oncology</option>
+                        <option value="Orthopedics">Orthopedics</option>
+                        <option value="Pediatrics">Pediatrics</option>
+                        <option value="Psychiatry">Psychiatry</option>
+                        <option value="Radiology">Radiology</option>
+                        <option value="Urology">Urology</option>
+
+                        <!-- Add options here -->
+                    </select>
+    
+                    <label for="type">Type</label>
+                    <select id="type" name="type" required>
+                        <option value="">Select Type</option>
+                        <option value="Hospital">Hospital</option>
+        <option value="Clinic">Clinic</option>
+        <option value="Diagnostic Center">Diagnostic Center</option>
+        <option value="Research Center">Research Center</option>
+        <option value="Rehabilitation Center">Rehabilitation Center</option>
+        <option value="Specialty Center">Specialty Center</option>
+        <option value="Urgent Care Center">Urgent Care Center</option>
+        <option value="Wellness Center">Wellness Center</option>
+        <option value="Nursing Home">Nursing Home</option>
+        <option value="Ambulatory Surgery Center">Ambulatory Surgery Center</option>
+    </select>
+                        <!-- Add options here -->
+                    </select>
+    
+                    <label for="operatingRooms">Operating Rooms</label>
+                    <select id="operatingRooms" name="operatingRooms" required>
+                        <option value="">Select Number of Procedure Rooms</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <!-- Add options here -->
+                    </select>
+    
+                    <label for="ccn">CCN</label>
+                    <input type="text" id="ccn" name="ccn" required>
+                </div>
+            </div>
+
+            <!-- threeCols ends-->
+            <div class="row1">
+                <label for="healthSystemAffiliation">Health System Affiliation</label>
+                <input type="text" id="healthSystemAffiliation" name="healthSystemAffiliation" required>
+         
+                <label for="ehrSystem">EHR System</label>
+                <input type="text" id="ehrSystem" name="ehrSystem" required>
+            
+                <label for="rcmSystem">RCM System</label>
+                <input type="text" id="rcmSystem" name="rcmSystem" required>
+
+                <label for="loginAttempts">Login Attempts</label>
+                <select id="loginAttempts" name="loginAttempts" required>
+                    <option value="">Select Login Attempts</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <!-- Add options here -->
+                </select>
+            </div>
+               
+                <!-- new section -->
+        
+            <div class="row1">
+                    <label for="isCorporate">Is Corporate?</label>
+                    <input type="checkbox" id="isCorporate" name="isCorporate">
+    
+                    <label for="processAlert">Process Alert?</label>
+                    <input type="checkbox" id="processAlert" name="processAlert">
+    
+                    <label for="isClient">Is Client?</label>
+                    <input type="checkbox" id="isClient" name="isClient">
+    
+                    <label for="isActive">Is Active?</label>
+                    <input type="checkbox" id="isActive" name="isActive">
+    
+                    <label for="isBiEnabled">Is BI Enabled?</label>
+                    <input type="checkbox" id="isBiEnabled" name="isBiEnabled">
+    
+                    <label for="surgicalCasesStart">Surgical Cases Start</label>
+                    <input type="date" id="surgicalCasesStart" name="surgicalCasesStart" required>
+
+            </div>
+
+
+
+            <h2>Logs</h2>
+            <div class="row">
+                   
+                    <label for="showPicture">Show Picture?</label>
+                    <input type="checkbox" id="showPicture" name="showPicture">
+    
+                    <label for="attachment">Attachment?</label>
+                    <input type="checkbox" id="attachment" name="attachment">
+                
+            </div>
+
+    
+
+            <h2> Survey</h2>
+            <div class="row">
+                    
+                <label for="surveySchedule">Survey Schedule</label>
+                <input type="checkbox" id="surveySchedule" name="surveySchedule">
+
+                <label for="surveyEmail">Survey Email</label>
+                <input type="checkbox" id="surveyEmail" name="surveyEmail">
+
+
+            </div>
+               
+                <button type="submit">Submit</button>
+        </form>
+        <script src="./index.js"></script>
+</body>
+</html>
